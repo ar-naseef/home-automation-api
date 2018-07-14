@@ -17,7 +17,7 @@ app.get('/home', (req, res) => {
   res.send('home automation center');
 });
 
-app.get('/toggle/:lightid', (req, res) => {
+app.get('/toggle', (req, res) => {
   const lightid = req.params.lightid;
   // logic to toggle the light
 
